@@ -12,7 +12,7 @@ def test_checksum():
     assert checksum(t_primes) == 7785816
 
 def test_pipeline():
-    assert pipeline() == 778581d6
+    assert pipeline() == 7785816
 
 #test_is_prime()
 #test_primes()
