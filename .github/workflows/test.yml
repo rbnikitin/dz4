@@ -12,6 +12,6 @@ jobs:
     - run: mkdir -p ~/.ssh
     - run: echo $ssh_key | base64 -d > ~/.ssh/id_rsa
     - run: chmod 0600 ~/.ssh/id_rsa
-    - run: ssh -o StrictHostKeyChecking=no bdb2c2023q4_guest_3@brain-client.bigdatateam.org "mkdir roman33 && touch roman33/task41.txt"
+    - run: ssh -o StrictHostKeyChecking=no bdb2c2023q4_guest_3@brain-client.bigdatateam.org "mkdir -p ./roman33 && touch ./roman33/task41.txt"
     - run: python3 test.py
     - run: echo "OK"
