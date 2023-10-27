@@ -9,7 +9,6 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
-    - run: apt update && apt install libcrypto
     - run: mkdir -p ~/.ssh
     - run: echo $ssh_key | base64 -d > ~/.ssh/id_rsa
     - run: chmod 0600 ~/.ssh/id_rsa
