@@ -1,1 +1,1 @@
-![test](https://github.com/rbnikitin/test/actions/workflows/ci.yml/badge.svg)
+![test](https://github.com/rbnikitin/dz4/actions/workflows/test.yml/badge.svg)
